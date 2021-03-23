@@ -114,4 +114,4 @@ DELETE FROM "workers"
 WHERE extract(
     'year'
     from age("birthday")
-  ) = 27;
+  ) = 23;
